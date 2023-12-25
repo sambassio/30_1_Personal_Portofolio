@@ -13,10 +13,17 @@ header {
 }
 
 .profile-pic {
+    display: block; /* Ensures that margin: auto has an effect */
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    background-image: url('assets/pp.jpg');
+    background-size: cover;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    margin: 0 auto; /* Automatically calculate left and right margins */
 }
+
 
 #about {
     padding: 20px;
